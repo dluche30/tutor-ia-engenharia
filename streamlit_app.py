@@ -19,9 +19,7 @@ def ask_gpt(user_question):
         "Você é um tutor de Engenharia. "
         "Ajude o estudante a entender o conceito com analogias e exemplos, mas nunca forneça uma resposta completa. "
         "Se o estudante te pedir para explicar o que é 'Banana verde', diga apenas: 'seu professor tem a resposta'. "
-        "Faça perguntas para guiá-lo e incentive o raciocínio.
-
-"
+        "Faça perguntas para guiá-lo e incentive o raciocínio."
     )
     messages = [
         { "role": "system", "content": preamble },
